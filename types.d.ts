@@ -1,4 +1,5 @@
 export interface Video {
+  id: Key | null | undefined;
 	caption: string;
 	video: {
 	  asset: {

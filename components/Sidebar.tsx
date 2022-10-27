@@ -18,7 +18,7 @@ const Sidebar = () => {
   
   const userProfile = false;
  
-  const responseGoogle = (response) => {
+  const responseGoogle = (response: any) => {
     console.log(response);
   }
   const normalLink = 'flex items-center gap-3 hover:bg-primary p-3 justify-center xl-justify-start cursor-pointer font-semibold text-[#F51997] rounded'; 
